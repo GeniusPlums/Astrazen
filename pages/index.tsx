@@ -65,8 +65,8 @@ const Home: NextPage = () => {
   return (
     <Box>
       <SEO
-        title="Saas UI Landingspage"
-        description="Free SaaS landingspage starter kit"
+        title="Astrazen ERP"
+        description="Best ERP in the world"
       />
       <Box>
         <HeroSection />
@@ -103,15 +103,15 @@ const HeroSection: React.FC = () => {
             }
             description={
               <FallInPlace delay={0.4} fontWeight="medium">
-                Saas UI is a <Em>React component library</Em>
+                Astrazen  is an <Em>Enterprise Resource Planning software</Em>
                 <Br /> that doesn&apos;t get in your way and helps you <Br />{" "}
-                build intuitive SaaS products with speed.
+                focus on running your startup.
               </FallInPlace>
             }
           >
             <FallInPlace delay={0.8}>
               <HStack pt="4" pb="12" spacing="8">
-                <NextjsLogo height="28px" /> <ChakraLogo height="20px" />
+                {/* <NextjsLogo height="28px" /> <ChakraLogo height="20px" /> */}
               </HStack>
 
               <ButtonGroup spacing={4} alignItems="center">
@@ -174,14 +174,14 @@ const HeroSection: React.FC = () => {
         pt="20"
         features={[
           {
-            title: "Accessible",
+            title: "Easy to use",
             icon: FiSmile,
-            description: "All components strictly follow WAI-ARIA standards.",
+            description: "Even Joe Biden can use our software.",
             iconPosition: "left",
             delay: 0.6,
           },
           {
-            title: "Themable",
+            title: "Custoumizable",
             icon: FiSliders,
             description:
               "Fully customize all components to your brand with theme support and style props.",
@@ -189,10 +189,10 @@ const HeroSection: React.FC = () => {
             delay: 0.8,
           },
           {
-            title: "Composable",
+            title: "Certified Racist",
             icon: FiGrid,
             description:
-              "Compose components to fit your needs and mix them together to create new ones.",
+              "Compose racists to fit your needs and mix them together to create new ones.",
             iconPosition: "left",
             delay: 1,
           },
@@ -200,7 +200,7 @@ const HeroSection: React.FC = () => {
             title: "Productive",
             icon: FiThumbsUp,
             description:
-              "Designed to reduce boilerplate and fully typed, build your product at speed.",
+              "Designed to reduce managers and executives, build your product at speed.",
             iconPosition: "left",
             delay: 1.1,
           },
@@ -334,10 +334,10 @@ const FeaturesSection = () => {
       }
       description={
         <>
-          Saas UI Pro includes everything you need to build modern frontends.
+          Astrazen PRO includes everything you need to build a monopoly.
           <Br />
-          Use it as a template for your next product or foundation for your
-          design system.
+          Use it as a tool for your next product or foundation for your
+          big idea.
         </>
       }
       align="left"
@@ -468,7 +468,7 @@ export async function getStaticProps() {
   return {
     props: {
       announcement: {
-        title: "Support us by becoming a stargazer! 🚀 ",
+        title: "Buy this to go to space! 🚀 ",
         description:
           '<img src="https://img.shields.io/github/stars/saas-js/saas-ui.svg?style=social&label=Star" />',
         href: "https://github.com/saas-js/saas-ui",
