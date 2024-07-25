@@ -21,10 +21,10 @@
     "@svgr/webpack": "^7.0.0",
     "date-fns": "^2.30.0",
     "framer-motion": "^10.18.0",
-    "next": "^14.1.4",
+    "next": "^14.2.5",
     "next-seo": "^6.5.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-icons": "^4.12.0",
     "react-remove-scroll": "^2.5.9"
   },
@@ -37,4 +37,10 @@
     "eslint-config-next": "13.3.1",
     "typescript": "5.0.4"
   }
+  "overrides": {
+    "next-contentlayer": {
+    "next": "$next"
+  }
+}
+
 }
